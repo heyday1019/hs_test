@@ -1,9 +1,13 @@
 numpy
 pandas
-scipy
 matplotlib
-jupyter
+seaborn
+plotly
 scikit-learn
+jupyterlab
+streamlit
+pingouin
+scipy
 chardet
 gdown
 xlsxwriter
