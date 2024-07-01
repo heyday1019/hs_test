@@ -113,7 +113,8 @@ env.bak/
 venv.bak/
 
 test_data/
-tes/
+
+kaggle/
 
 # Spyder project settings
 .spyderproject
