@@ -46,6 +46,12 @@ FROM
 	customers
 WHERE customerNumber = '112'
 ;
+SELECT database();
+USE classicmodels;
+SELECT * FROM customers;
+SELECT customerNumber as customerNumbers2
+FROM customers
+WHERE customerNumbers2 = 112;
 
 SELECT *
 FROM
@@ -185,3 +191,7 @@ FROM
 	customers
 GROUP BY country, city
 ;
+SELECT customerNumber as customerNumber2
+FROM customers
+;
+SELECT * FROM customers;
